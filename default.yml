@@ -12,6 +12,11 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 org_settings:
+  fleet_desktop:
+    transparency_url: https://catoftheday.com
+  host_expiry_settings:
+    host_expiry_enable: true
+    host_expiry_window: 30
   org_info:
     ###########################################################
     # The name of your organization is displayed to end users
@@ -108,12 +113,11 @@ controls:
 
   ###########################################################
   # Uncomment when you are ready to start using Fleet's Windows MDM features.
-  # 
+  #
   # Read more:
   #   • https://fleetdm.com/guides/windows-mdm-setup
   ###########################################################
   # windows_enabled_and_configured: true
-
 
 ###########################################################
 # Labels are static or dynamic groupings of computers for
