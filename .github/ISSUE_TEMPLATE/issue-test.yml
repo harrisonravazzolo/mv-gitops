@@ -1,7 +1,7 @@
 name: ☁️ New Fleet instance
 description: Create a new Fleet instance for a prospect
 title: "New Fleet instance: ___________________.cloud.fleetdm.com"
-labels: ":help-customers"
+labels: [":help-customers"]
 body:
   - type: input
     id: instance_url
@@ -40,3 +40,14 @@ body:
       label: Number of hosts
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        > This section is for the person fulfilling this request (not the requestor).
+        - [ ] Configure `FLEET_MDM_SSO_RATE_LIMIT_PER_MINUTE` based on host count above:
+        - [ ] Set up requested subdomain based on the title of this issue. Ensure subdomain looks conventional. Conventional subdomains are all lowercase and use dashes (e.g. `foo-bar-inc.cloud.fleetdm.com`).
+        - [ ] Set up Fleet instance.
+        - [ ] Test that domain actually works.
+        - [ ] Do all configuration, including the license key.
+        - [ ] Add global admin credentials to Customer-PoV vault.
+        - [ ] Post in #help-infra and tag original requestor that the instance has been created
