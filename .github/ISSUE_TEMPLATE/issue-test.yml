@@ -7,14 +7,14 @@ body:
     id: domain_url
     attributes:
       label: Domain URL
-      placeholder: ex. acme.cloud.fleetdm.com
+      placeholder: ie. acme.cloud.fleetdm.com
     validations:
       required: true
   - type: input
     id: org_display_name
     attributes:
       label: Organization display name
-      value: "Acme Co."
+      placeholder: "Acme Co."
     validations:
       required: true
   - type: dropdown
