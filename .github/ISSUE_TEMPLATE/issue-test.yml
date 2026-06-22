@@ -7,14 +7,14 @@ body:
     id: instance_url
     attributes:
       label: Instance URL
-      placeholder: ie. acme.cloud.fleetdm.com
+      placeholder: e.g. acme.cloud.fleetdm.com
     validations:
       required: true
   - type: input
     id: org_display_name
     attributes:
       label: Organization display name
-      placeholder: ie. Acme Co.
+      placeholder: e.g. Acme Co.
     validations:
       required: true
   - type: dropdown
@@ -43,9 +43,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## This section is for the infrastructure team
-        - [ ] Configure `FLEET_MDM_SSO_RATE_LIMIT_PER_MINUTE` based on host count above:
-        - [ ] Set up requested subdomain based on the title of this issue. Ensure subdomain looks conventional. Conventional subdomains are all lowercase and use dashes (e.g. `foo-bar-inc.cloud.fleetdm.com`).
+        ## ⬇️T his section is for the infrastructure team
+        - [ ] Configure `FLEET_MDM_SSO_RATE_LIMIT_PER_MINUTE` based on host count above
+        - [ ] Set up requested subdomain based on the title of this issue. Ensure subdomain looks conventional. Conventional subdomains are all lowercase and use dashes (e.g. `acme.cloud.fleetdm.com`).
         - [ ] Set up Fleet instance.
         - [ ] Test that domain actually works.
         - [ ] Do all configuration, including the license key.
