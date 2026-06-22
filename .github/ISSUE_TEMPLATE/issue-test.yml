@@ -1,19 +1,13 @@
-name: Bug Report
-description: File a bug report.
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
+name: ☁️ New Fleet instance
+description: Create a new Fleet instance for a prospect
+title: "New Fleet instance: ___________________.cloud.fleetdm.com"
+labels: ":help-customers"
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: input
-    id: contact
+    id: Domain URL
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Domain URL
+      placeholder: ex. acme.cloud.fleetdm.com
     validations:
       required: false
   - type: textarea
