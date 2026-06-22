@@ -4,9 +4,9 @@ title: "New Fleet instance: ___________________.cloud.fleetdm.com"
 labels: ":help-customers"
 body:
   - type: input
-    id: domain_url
+    id: instance_url
     attributes:
-      label: Domain URL
+      label: Instance URL
       placeholder: ie. acme.cloud.fleetdm.com
     validations:
       required: true
@@ -14,7 +14,7 @@ body:
     id: org_display_name
     attributes:
       label: Organization display name
-      placeholder: "Acme Co."
+      placeholder: ie. Acme Co.
     validations:
       required: true
   - type: dropdown
